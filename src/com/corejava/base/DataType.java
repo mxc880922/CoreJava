@@ -1,5 +1,7 @@
 package com.corejava.base;
 
+enum Size {SMALL, MEDIUM, LARGE, EXTRA_LARGE};
+
 public class DataType {
 	public static final double CM_PR_INCH = 2.54;	//java中用final指定常量
 	public static void main(String[] args) {
@@ -19,6 +21,8 @@ public class DataType {
 		boolean done = true;
 		
 		System.out.println("The population on earth now reaches "+earthPopulation);
+	
+		Size size = Size.SMALL;
 	}
 
 }
